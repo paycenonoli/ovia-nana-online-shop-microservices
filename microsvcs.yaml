@@ -433,7 +433,7 @@ spec:
       labels:
         app: redis-cart
     spec:
-      replicas: 2
+      replicas: 1
       containers:
         - name: redis
           image: redis:alpine
